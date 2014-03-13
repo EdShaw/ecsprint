@@ -1,8 +1,16 @@
 ecsprint
 ========
 
-Print from your machine on the CS department printers
+Print from your machine on the CS department printers. 
 
+Eg:
+```
+> ecsprint.py m10es@ecs.ox.ac.uk -P mfp0hdup  file1.txt file2.pdf file3.c
+...
+```
+Help:
+
+```
 usage: ecsprint.py [-h] [-P PRINTER] [-c COMMAND] [--dryrun] [-args ARGS] [-v]
                    host files [files ...]
 
@@ -19,3 +27,4 @@ optional arguments:
   --dryrun    Do not print.
   -args ARGS  Print args.
   -v          Verbose.
+```
